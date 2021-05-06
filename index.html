@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pong game,very simple.</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src=script.js></script>
+    <table border=5 id=swc>
+      <tr>
+        <th>
+    <canvas id=a></canvas>
+    </th>
+    </tr>
+    <tr>
+      <th>
+        For Player 1<BR>
+        <input type=range style=width:100%; min=-5 value=0 max=5 id=ctn step=0.1><BR>
+        Left to up ,right to go down.
+        <BR>
+          <input type=button value='Toggle Fullscreen' onclick="if(lde){if(document.fullscreenElement){document.exitFullscreen()}else{document.getElementById('a').requestFullscreen()}}">
+      </th>
+      </tr>
+      </table>
+  </body>
+</html>
