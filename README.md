@@ -8,5 +8,5 @@ In the mouse
 
 Where it plays?
 
-https://pong.joresonhu.repl.co
+
 
